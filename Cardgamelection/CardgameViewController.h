@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CardgameViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentController;
 
+- (IBAction)changePlayMode:(id)sender;
 @end
